@@ -1,0 +1,30 @@
+sales-registration-system/
+│
+├── server.js                  // Ana server faylı
+├── config/
+│   ├── graphAPI.js            // Microsoft Graph API bağlantısı
+│   └── auth.js                // Auth konfiqurasiyası
+│
+├── routes/
+│   ├── auth.js                // Giriş routeları
+│   ├── sales.js               // Satış routeları
+│   └── admin.js               // Admin routeları
+│
+├── controllers/
+│   ├── authController.js
+│   ├── salesController.js
+│   └── adminController.js
+│
+├── views/
+│   ├── login.ejs              // Giriş səhifəsi
+│   ├── dashboard.ejs          // Satış formu
+│   └── admin-panel.ejs        // Admin paneli
+│
+├── public/
+│   ├── css/
+│   └── js/                    // Frontend JS funksiyaları
+│
+├── sample-excel/
+│   └── sales-system-template.xlsx    // Excel şablonu (OneDrive-a yüklənilməlidir)
+│
+└── README.md                  // Təsvir və addım-addım quraşdırma 
